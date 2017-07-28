@@ -1,0 +1,75 @@
+body {
+  padding: 0 20px;
+  background: #444;
+  color: white;
+}
+
+img {
+  width: 30%;
+  height: auto;
+}
+
+img.icon {
+  width: 75px;
+  height: 75px;
+}
+
+button {
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.nav-links-padding {
+  padding-top: 25px;
+}
+
+.buttons {
+  display: flex;
+}
+
+.shopping-cart {
+  display: flex;
+  align-items: baseline;
+}
+
+.night-clubs {
+  color: rgb(35, 210, 210);
+  text-align: center;
+}
+.night-clubs:hover {
+  color: red;
+}
+.well {
+  background-color: black;
+}
+.club-list {
+  background-image: url('https://wallpapersafari.com/night-club-wallpaper/');
+  margin-top: 100px;
+}
+.container {
+  margin-top: 180px;
+}
+.map-display {
+    height: 600px;
+    width: 1100px;
+  }
+  .map-btn {
+    height: 35px;
+    width: 135px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 5px;
+  }
+  .map-btn:hover,
+               focus{
+    color: black;
+    background-color: white;
+  }
+  .read-more {
+    color: cyan;
+  }
+.description {
+  margin-top: 150px;
+}
